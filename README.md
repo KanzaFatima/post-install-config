@@ -21,7 +21,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Resource Group
 - Virtual Machine
 - Remote Desktop Connection
-- Internet Information Services (IIs)
+- Internet Information Services (IIS)
 - osTicket
 
 
