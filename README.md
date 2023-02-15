@@ -16,7 +16,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Windows 10</b> (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
+<h2>Prerequisites</h2>
 
 - Resource Group
 - Virtual Machine
@@ -24,6 +24,12 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Internet Information Services (IIS)
 - osTicket
 
+<h2>Post-Install Configuration Objectives</h2>
+
+- In this section we will create and configure osTicket environment.
+- We will setup stuff as an admin.
+- We will create role, department, team, agents and users.
+- We will setup different SLA’s and create some help topics.
 
 <h2>Configuration Steps</h2>
 </p>
