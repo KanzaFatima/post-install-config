@@ -41,7 +41,7 @@ Login to the osTicket as an admin. Note that you can also switch between admin a
 <img src="https://i.imgur.com/ShJmDqO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Role is the permission granted to agents per department that they have access to. Each role has a set of permission that can be checked or unchecked for the agent given that role in association of the department that they have access to. In this case we will create a role called supreme admin and we will give people who have this supreme admin role to the access of everything.
+Role is the permission granted to agents per department that they have access to. Each role has a different set of permission that can be checked or unchecked for the agent given that role in association of the department that they have access to. Here we will create a role called supreme admin and we will give people who have this supreme admin role to the access of everything.
   
   
 Admin Panel -> Agents -> Roles
@@ -83,7 +83,7 @@ Level I Support
 Level II Support
   
   
-Add level II support and in members add yourself kanza in the team.
+Add level II support and in members add yourself kanza in that team.
 
 
 </p>
