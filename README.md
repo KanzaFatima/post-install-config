@@ -26,7 +26,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- In this section we will create and configure osTicket environment.
+- In this section we will create and configure the osTicket environment.
 - We will setup stuff as an admin.
 - We will create role, department, team, agents and users.
 - We will setup different SLA’s and create some help topics.
@@ -34,15 +34,14 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 </p>
 <p>
-Login to the osTicket as an admin. Note that you can also switch between admin and agents panel by click to the top right corner of the screen.
+Login to the osTicket as an admin. Note that you can also switch between admin and agents panel by clicking on the top right corner of the screen.
 </p>
 <br />
 <p>
 <img src="https://i.imgur.com/ShJmDqO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Role is the permission granted to agents per department that they have access to. Each role has a different set of permission that can be checked or unchecked for the agent given that role in association of the department that they have access to. Here we will create a role called supreme admin and we will give people who have this supreme admin role to the access of everything.
-  
+A role is the permission granted to agents (the person who will take care of the ticket) in the department that they have access to. Each role has a different set of permissions that can be checked or unchecked for the agent. Now we will create a role called “supreme admin” and will give people who have this “supreme admin” role access to everything.  
   
 Admin Panel -> Agents -> Roles
 Add new role>Supreme admin
@@ -57,8 +56,7 @@ After adding a new role go to the permission and check all of the boxes, click t
 <img src="https://i.imgur.com/gL3PXY1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The ticket gets associated with the department and that specific department will takecare of that ticket.
-  
+The ticket gets associated with a department, and that specific department will take care the ticket  
   
 Admin Panel -> Agents -> Departments
 Add new department>System Administrator
@@ -71,7 +69,7 @@ Add new department>System Administrator
 </p>
 <p>
   
-The group of every department best members make one team.
+Every department can have multiple teams
   
 
 Admin Panel -> Agents -> Teams
@@ -82,8 +80,8 @@ Level I Support
   
 Level II Support
   
-  
-Add level II support and in members add yourself kanza in that team.
+
+Add level II support and in members add yourself.
 
 
 </p>
@@ -97,8 +95,7 @@ Add level II support and in members add yourself kanza in that team.
 Admin Panel -> Settings -> User Settings
   
   
-Registration Required: Require registration and login to create tickets 
-  
+Next, click require registration and login to create tickets  
   
 </p>
 <br />
@@ -109,11 +106,15 @@ Registration Required: Require registration and login to create tickets
 
 
 
-Agent is the person who solve the ticket.
+Agent is the person solve the ticket.
+
+
+Admin Panel -> Agents -> Add new 
+
+
+you can add anyone to the agent list by creating their usernames, emails, and passwords. In this case I added Jane Doe and John Doe as agents
   
-Admin Panel -> Agents -> Add New
-You can add anyone to the agent list by creating their user’s name, email, and password. In this case I added jane doe and john does as agents.
-  
+
   
 Jane Doe  
 Access> Set to System Administrators>Set role to supreme admin>check permission>check teams and to level II support and create
@@ -131,7 +132,7 @@ Access>support>role set to view only>Extended Access set to support and create
 </p>
 <p>
 
-We can also add the End users. End user are the person who can create their own ticket.
+We can also add End Users. End Users (also known as the customer) are the people who can create their own tickets.
   
   
 Agent Panel -> Users -> Add New
@@ -155,8 +156,9 @@ Add karen and ken to the end user.
 <img src="https://i.imgur.com/TTGKh4f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-SLA is the time frame on how long the ticket is going to open and then the help desk will be going to close the ticket.
-  
+
+SLA is the amount of time given to open, solve the problem, and close the ticket.
+
   
 Admin Panel -> Manage -> SLA
 
@@ -184,8 +186,9 @@ Sev-C (8 hours, business hours)
 <img src="https://i.imgur.com/7yNI5Gi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-End user can choose the problem about what they are going to need help with, and to do this go to the
-Admin Panel -> Manage -> Help Topics
+
+
+End users can choose the problem they need help with. To do this go to the Admin Panel -> Manage -> Help Topics
 
   
 Business Critical Outage
